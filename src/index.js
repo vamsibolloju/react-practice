@@ -5,8 +5,7 @@ import "./styles.css";
 import { Provider } from "react-redux";
 import store from "./store";
 import { Todos } from "./components";
-store.dispatch({ type: "ADD_TODO", data: { name: "vamsi" } });
-console.log(store.getState());
+
 function App() {
   return (
     <Provider store={store}>
